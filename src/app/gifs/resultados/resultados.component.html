@@ -1,1 +1,18 @@
-<p>resultados works!</p>
+<!-- <ul>
+    <li *ngFor="let gif of resultados">
+        {{ gif.title }}
+    </li>
+</ul> -->
+
+<div class="row">
+  <div class="col-md-4 col-sm-6 animate__animated animate__fadeIn mb-3" *ngFor="let gif of resultados">
+    <div class="card">
+      <img [src]="gif.images.downsized_medium.url" [alt]="gif.title" class="card-img-top" style="height: 20rem;"/>
+      <div class="card-body">
+        <p class="card-text fw-bold text-center text-truncate">
+          {{ gif.title || 'Unknown' | titlecase }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

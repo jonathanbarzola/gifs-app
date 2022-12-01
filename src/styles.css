@@ -7,3 +7,8 @@ html, body {
     min-height: 100vh;
     min-width: 180px;
 }
+
+#item-sidebar:hover {
+    background-color: #e0dbdb;
+    color: black;
+}

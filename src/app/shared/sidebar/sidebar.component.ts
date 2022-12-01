@@ -7,6 +7,14 @@ import { GifsService } from 'src/app/gifs/services/gifs.service';
 })
 export class SidebarComponent {
   
+  buscar( termino: string ): void {
+    this.gifsService.buscarGifs( termino )
+  }
+  
+  borrarHistorial() {
+    this.gifsService.borrarHistorial()
+  }
+
   get historial() {
     return this.gifsService.historial;
   }
