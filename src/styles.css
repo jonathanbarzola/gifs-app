@@ -12,3 +12,13 @@ html, body {
     background-color: #e0dbdb;
     color: black;
 }
+
+@media (max-width: 400px) {
+    #sidebar {
+        display: none;
+    }
+
+    #redes-sociales {
+        display: none;
+    }
+}
