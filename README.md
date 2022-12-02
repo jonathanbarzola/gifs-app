@@ -1,27 +1,25 @@
-# GifsApp
+# GIFS APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+![image](https://user-images.githubusercontent.com/101309300/205187063-06f8c59f-1792-4548-9647-d6c9a463f43c.png)
 
-## Development server
+## Descripción:
+Realizar este proyecto fue bastante divertido para mí ya que el uso de los gifs y al ser tan visual se disfrutaba más, el uso del historial ubicado en el sidebar fue muy divertido, los retos que encontré aquí fue almacenar las búsquedas que se hacian y guardarlos en el historial, y en el Local Storage para que los datos perduren, además también de la visualización de los gifs también que se mantengan. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Aprendí:
+- LocalStorage vs SessionStorage
+- Peticiones HTTP en Angular con HTTPClient
+- Uso de parametros con HttpParams
+- Uso de la API de GIPHY DEV
+- Componetización
+- Modules
+- Services
+- Interfaces
 
-## Code scaffolding
+## Tecnologías:
+- Bootstrap
+- HTML
+- CSS
+- TypeScript
+- Angular
+- Animate Style
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
