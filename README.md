@@ -23,3 +23,6 @@ Realizar este proyecto fue bastante divertido para mí ya que el uso de los gifs
 - Angular
 - Animate Style
 
+# Características a agregar:
+- Agregarle un boton para descargar
+- Hacerlo responsive design
